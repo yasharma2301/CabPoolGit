@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yellow1"
+    tools:context=".requestDetails" >
+
+    <EditText
+        android:id="@+id/leaving_from"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="8dp"
+        android:drawableEnd="@drawable/ic_add_location_black_24dp"
+        android:ems="10"
+        android:hint="Leaving From"
+        android:inputType="textPersonName"
+        android:textColor="#050000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/going_to"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:drawableEnd="@drawable/ic_add_location_black_24dp"
+        android:ems="10"
+        android:hint="Going to"
+        android:inputType="textPersonName"
+        android:textColor="#050000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/leaving_from" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="140dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="32dp"
+        android:drawableEnd="@drawable/ic_gradient_black_24dp"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Date"
+        android:inputType="textPersonName"
+        android:textColor="#050000"
+        app:layout_constraintEnd_toStartOf="@+id/time"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/going_to" />
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="140dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="36dp"
+        android:drawableEnd="@drawable/ic_access_time_black_24dp"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Time"
+        android:inputType="textPersonName"
+        android:textColor="#050000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/going_to" />
+
+    <EditText
+        android:id="@+id/seats"
+        android:layout_width="207dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:drawableEnd="@drawable/ic_airline_seat_recline_normal_black_24dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:digits="1234567890"
+        android:hint="Seat(s) available"
+        android:textColor="#050000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contact" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="250dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="76dp"
+        android:background="@drawable/custom_button2"
+        android:text="SUBMIT RIDE DETAILS"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seats"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="156dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="RIDE DETAILS"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/leaving_from"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="74dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#008D7F7F"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toTopOf="@+id/leaving_from"
+        app:layout_constraintEnd_toStartOf="@+id/textView15"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.016"
+        app:srcCompat="@drawable/ic_arrow_back_black_36dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:drawableEnd="@drawable/ic_portrait_person"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Name "
+        android:inputType="textPersonName"
+        android:textColor="#050000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date" />
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:drawableEnd="@drawable/ic_call_black_24dp"
+        android:ems="10"
+        android:hint="Contact"
+        android:focusable="false"
+        android:inputType="textPersonName"
+        android:textColor="#050000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

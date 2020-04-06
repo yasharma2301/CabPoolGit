@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "406595615197",
+    "firebase_url": "https://megacabpool.firebaseio.com",
+    "project_id": "megacabpool",
+    "storage_bucket": "megacabpool.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406595615197:android:97eceee9797216f8761e34",
+        "android_client_info": {
+          "package_name": "com.example.megacabpool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406595615197-kqbe5k2ro5qnv4ctqm9lrbjad2lqobcu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.megacabpool",
+            "certificate_hash": "cf10db28bb402db30702b91427340fe29dd2172d"
+          }
+        },
+        {
+          "client_id": "406595615197-vm34jf0jt44pa3qnokbsa5olhbr1qa4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDam66eEorLalXI_mwi3UtdsZ3t48D_utM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406595615197-vm34jf0jt44pa3qnokbsa5olhbr1qa4j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
