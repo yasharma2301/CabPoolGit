@@ -51,7 +51,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/r"
+        app:layout_constraintTop_toBottomOf="@+id/recycle"
         app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
@@ -67,15 +67,15 @@
         android:id="@+id/textView22"
         android:layout_width="243dp"
         android:layout_height="41dp"
-        android:layout_marginStart="4dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="6dp"
         android:fontFamily="@font/abril_fatface"
         android:text="MEGA CAB POOL"
         android:textColor="#FFC400"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/r"
-        app:layout_constraintEnd_toStartOf="@+id/chat"
-        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintBottom_toTopOf="@+id/recycle"
+        app:layout_constraintEnd_toStartOf="@+id/notification"
+        app:layout_constraintHorizontal_bias="0.656"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -85,20 +85,9 @@
         android:layout_width="63dp"
         android:layout_height="56dp"
         android:background="#00FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/r"
+        app:layout_constraintBottom_toTopOf="@+id/recycle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_notifications_black_24dp" />
-
-    <ImageButton
-        android:id="@+id/chat"
-        android:layout_width="63dp"
-        android:layout_height="56dp"
-        android:background="#00FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/r"
-        app:layout_constraintEnd_toStartOf="@+id/notification"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/ic_chat_yellow" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

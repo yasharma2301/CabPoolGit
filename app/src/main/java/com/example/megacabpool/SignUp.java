@@ -33,6 +33,8 @@ import com.google.firebase.firestore.QuerySnapshot;
 import java.util.HashMap;
 import java.util.Map;
 
+import static android.content.Context.MODE_PRIVATE;
+
 public class SignUp extends AppCompatActivity {
 public static final String TAG = "SignUp";
 private static final String SHARED_PREFS = "SharedPrefs";

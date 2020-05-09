@@ -33,7 +33,7 @@
         app:srcCompat="@drawable/ic_arrow_back_black_36dp" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/r"
+        android:id="@+id/recycle"
         android:layout_width="match_parent"
         android:layout_height="655dp"
         app:layout_constraintBottom_toBottomOf="parent"

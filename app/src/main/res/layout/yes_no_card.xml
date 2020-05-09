@@ -28,41 +28,13 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/yes"
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
-            android:background="@drawable/button_yn"
-            android:text="Y"
-            android:textSize="18sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/no"
-            app:layout_constraintHorizontal_bias="0.876"
-            app:layout_constraintStart_toEndOf="@+id/textView28"
-            app:layout_constraintTop_toBottomOf="@+id/prompt"
-            app:layout_constraintVertical_bias="0.0" />
-
-        <Button
-            android:id="@+id/no"
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="12dp"
-            android:layout_marginBottom="4dp"
-            android:background="@drawable/button_yn"
-            android:text="N"
-            android:textSize="18sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/prompt"
-            app:layout_constraintVertical_bias="0.0" />
-
         <TextView
             android:id="@+id/textView28"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:text="CONFIRM HERE-"
+            android:layout_marginTop="8dp"
+            android:text="CLICK TO CONFIRM"
             android:textAlignment="center"
             android:textColor="#FDB813"
             android:textSize="18sp"
@@ -70,5 +42,20 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/prompt" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SWIPE TO REJECT"
+            android:textColor="#FDB813"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.896"
+            app:layout_constraintStart_toEndOf="@+id/textView28"
+            app:layout_constraintTop_toBottomOf="@+id/prompt"
+            app:layout_constraintVertical_bias="1.0" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>
